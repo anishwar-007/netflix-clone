@@ -1,0 +1,100 @@
+[debug] [2022-06-29T13:48:21.626Z] ----------------------------------------------------------------------
+[debug] [2022-06-29T13:48:21.628Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sharm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-29T13:48:21.628Z] CLI Version:   11.1.0
+[debug] [2022-06-29T13:48:21.628Z] Platform:      win32
+[debug] [2022-06-29T13:48:21.628Z] Node Version:  v18.4.0
+[debug] [2022-06-29T13:48:21.629Z] Time:          Wed Jun 29 2022 19:18:21 GMT+0530 (India Standard Time)
+[debug] [2022-06-29T13:48:21.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-29T13:48:21.634Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-29T13:48:21.635Z] > authorizing via signed-in user (sharmaanish7779@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Development Projects\Netflix Clone\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-29T13:48:34.468Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-06-29T13:48:35.700Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-06-29T13:48:35.700Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project netflix-clone-2434 (netflix-clone-2434) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-06-29T13:49:14.372Z] ----------------------------------------------------------------------
+[debug] [2022-06-29T13:49:14.374Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sharm\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-29T13:49:14.374Z] CLI Version:   11.1.0
+[debug] [2022-06-29T13:49:14.374Z] Platform:      win32
+[debug] [2022-06-29T13:49:14.374Z] Node Version:  v18.4.0
+[debug] [2022-06-29T13:49:14.376Z] Time:          Wed Jun 29 2022 19:19:14 GMT+0530 (India Standard Time)
+[debug] [2022-06-29T13:49:14.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-29T13:49:14.384Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-29T13:49:14.385Z] > authorizing via signed-in user (sharmaanish7779@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Development Projects\Netflix Clone\netflix-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-29T13:49:21.274Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-06-29T13:49:22.172Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-06-29T13:49:22.172Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project netflix-clone-2434 (netflix-clone-2434) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-06-29T13:49:35.006Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-29T13:49:35.390Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-29T13:49:35.390Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Development Projects\Netflix Clone\netflix-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=898472986&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-06-29T13:49:46.443Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-06-29T13:49:46.444Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-06-29T13:49:46.965Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-06-29T13:49:46.965Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-06-29T13:49:46.993Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-06-29T13:49:47.515Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-06-29T13:49:47.516Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"anishwar-007","id":81948807,"node_id":"MDQ6VXNlcjgxOTQ4ODA3","avatar_url":"https://avatars.githubusercontent.com/u/81948807?v=4","gravatar_id":"","url":"https://api.github.com/users/anishwar-007","html_url":"https://github.com/anishwar-007","followers_url":"https://api.github.com/users/anishwar-007/followers","following_url":"https://api.github.com/users/anishwar-007/following{/other_user}","gists_url":"https://api.github.com/users/anishwar-007/gists{/gist_id}","starred_url":"https://api.github.com/users/anishwar-007/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anishwar-007/subscriptions","organizations_url":"https://api.github.com/users/anishwar-007/orgs","repos_url":"https://api.github.com/users/anishwar-007/repos","events_url":"https://api.github.com/users/anishwar-007/events{/privacy}","received_events_url":"https://api.github.com/users/anishwar-007/received_events","type":"User","site_admin":false,"name":"Anishwar Sharma","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"I am a student of CSE IIITDM , Jabalpur, interested in Competitive Coding , Web Development ,  Football etc.","twitter_username":null,"public_repos":21,"public_gists":0,"followers":0,"following":0,"created_at":"2021-04-05T05:31:04Z","updated_at":"2022-05-09T03:25:48Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":14453,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as anishwar-007 
+[info] 
